@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}contacts{% endblock %}
+{% load static %}
+{% block photo1 %}<img src="{% static 'siteweb/7.jpg' %}" width="240" height="150"/>{% endblock %}
+{% block photo2 %}<img src="{% static 'siteweb/8.jpg' %}" width="240" height="150"/>{% endblock %}
+{% block photo3 %}<img src="{% static 'siteweb/9.jpg' %}" width="240" height="150"/>{% endblock %}
+{% block sousnav %}
+    <nav>
+		<ul>
+			<li><a href='/contact'>Où nous contacter?</a><br/><hr/></li>
+			<li><a href='/rejoindreladl'>Rejoignez-nous!</a><br/><hr/></li>
+		</ul>
+	</nav>
+{% endblock %}
+

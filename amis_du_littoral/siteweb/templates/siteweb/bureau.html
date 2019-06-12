@@ -1,0 +1,43 @@
+{% extends "accueil.html" %}
+
+{% block soustitre %}Le bureau de l'association{% endblock %}
+
+{% block content %}
+<table>
+	<tr>
+	  <th>Poste</th>
+	  <th>Nom</th> 
+	  <th>E-mail</th>
+	  <th>Téléphone</th>
+	</tr>
+	<tr>
+	  <th>Président</th>
+	  <td>Michel Gautier</td>
+	  <td>m.gautier@wanadoo.fr</td>
+	  <td>06 09 47 67 67</td>
+	</tr>
+	<tr>
+	  <th rowspan=2>Vice président</th>
+	  <td>Max Dignan</td>
+	  <td>max.dignan@orange.fr</td>
+	</tr>
+	<tr>
+	  <td>Jean François Pahun</td>
+	  <td>jeanfrancois.pahun@orange.fr</td>
+	  <td>06 63 04 22 76</td>
+	</tr>
+	<tr>
+		<th>Trésorière</th>
+	  <td>Jacqueline Follet</td>
+	  <td></td>
+	  <td></td>
+	</tr>
+	<tr>
+		<th>Chargé de mission</th>
+	  <td>Christophe Ploux</td>
+	  <td></td>
+	  <td>06 11 50 14 12</td>
+	</tr>  
+  </table>
+
+{% endblock %}

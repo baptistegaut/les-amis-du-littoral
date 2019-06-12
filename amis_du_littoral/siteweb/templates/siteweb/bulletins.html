@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}les bulletins{% endblock %}
+{% block photo1 %}<img src="{% static 'siteweb/4.jpg' %}" width="240" height="150"/>{% endblock %}
+{% block photo2 %}<img src="{% static 'siteweb/5.jpg' %}" width="240" height="150"/>{% endblock %}
+{% block photo3 %}<img src="{% static 'siteweb/6.jpg' %}" width="240" height="150"/>{% endblock %}
+{% block sousnav %}
+       <ul id ="bulletins">
+            <li><a href = "/bulletins">Les bulletins</a><br/><hr/></li>
+       </ul>
+{% endblock %}
+{% block soustitre %}Les bulletins{% endblock %}
+{% block content %}
+
+    <nav>
+    	<ul style= "list-style-type: none; text-align: left;">{% for bulletin in tous_les_bulletins %}
+    		<li style="margin-top: 5px;"><a href={{bulletin.numero}} target="_blank">{{bulletin.date}}</a></li>
+    		{% endfor %}
+    	</ul>
+       
+    </p>
+{% endblock %}

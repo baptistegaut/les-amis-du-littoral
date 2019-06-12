@@ -1,0 +1,126 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(117, 186, 241);
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    min-width: 950px;
+
+}
+header{
+    background-color: rgb(117, 186, 241);
+}
+
+#photos{
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 100%;
+
+}
+.photo{
+    margin-left:4%;
+    padding: 1%;
+    display: inline;
+    object-position: center;
+
+}
+.photo img{
+    border: 2px black solid;
+}
+
+#logo{
+    float: left;
+    margin-left:7%;
+}
+
+#container{
+    height: 120px;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 1px !important;
+}
+
+h2{
+	text-align: center;
+}
+#nav{
+    margin-top: 0px;
+    border-radius: 15px;
+    margin-left: 5%;
+    width: 90%;
+    background-color: rgb(240, 234, 165);
+    font-size: 120%;
+}
+
+#nav ul{
+    margin-top: 0 !important;
+    text-align: center;
+    
+    
+}
+
+#nav li{
+    display: inline-block;
+    margin-top: 0.4%;
+    margin-bottom: 0.4%;
+    margin-right: 6%;
+}
+#nav li a{
+    text-decoration: none;
+    color:black;
+}
+
+#sousnav{
+    margin-top: 2%;
+    width: 29%;
+    float: left;
+    font-size: 120%;
+}
+
+#sousnav li a{
+    text-decoration: none;
+    color: black;
+}
+
+#content{
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 2%;
+    padding: 2%;
+    border: 3px;
+    border-style: groove;
+    border-radius: 20px;
+    font-size: 90%;
+}
+
+#sousnav ul{
+    list-style-type: none;
+    margin-left: 1%;
+}
+
+#bulletins ul{
+    list-style-type: none;
+    
+}
+
+#bulletins li a{
+    color:black;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 50px;
+    font-size: 10px;
+
+}
+
+table, td, tr {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+    margin: 5px;
+}
