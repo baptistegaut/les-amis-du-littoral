@@ -25,7 +25,7 @@ SECRET_KEY = 'd@_rhj1=e^q_a*_wc*2+=n+=+=52dw08)%kyefj%j!)@l%!=^6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['amisdulittoral.org','localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['www.amisdulittoral.org','amisdulittoral.org','localhost', '127.0.0.1']
 
 
 # Application definition
