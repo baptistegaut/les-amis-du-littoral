@@ -1,2 +1,2 @@
 *.pyc
-*.sqlite3
+amis_du_littoral/db.sqlite3
